@@ -1,5 +1,6 @@
 html {
-    background-color: black;
+    background-color: gray;
+    font-family: 'Lato', Helvetica, sans-serif;
 }
 #myVideo {
     position: fixed;
@@ -9,14 +10,42 @@ html {
     min-height: 100%;
     z-index: -1;
   }
-  .topnav {
+  .cloud {
+    position: relative;
+    right: 130px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    z-index: 1;
+  }
+  .top-nav {
     position: fixed;
-    font-size: 50px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;
-    width: 100%;
     padding: 30px;
     top: 0;
     right: 0;
-  }  
+  }
+  .top-nav-li{
+    float: right;
+    list-style-type: none;
+  }
+
+  li a {
+    font-size: 40px;
+    padding: 15px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 50px;
+    opacity: 0.7;
+    /*margin-right: 50px;*/
+  }
+  a:hover {
+    background: #ddd;
+    color: black;
+  }
