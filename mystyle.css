@@ -1,6 +1,10 @@
 html {
     background-color: gray;
     font-family: 'Lato', Helvetica, sans-serif;
+    color: #fff;
+}
+body {
+  padding-top: 150px;
 }
 #myVideo {
     position: fixed;
@@ -18,10 +22,13 @@ html {
     float: left;
     z-index: 1;
   }
+  .city {
+    height: 480px;
+    width: 900px;
+  }
   .top-nav {
     position: fixed;
     width: 80%;
-    /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;
     padding: 30px;
     top: 0;
@@ -43,9 +50,32 @@ html {
     border-radius: 25px;
     margin-left: 50px;
     opacity: 0.7;
-    /*margin-right: 50px;*/
   }
   a:hover {
     background: #ddd;
     color: black;
+  }
+  .personal-link {
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .personal-link:hover {
+    text-decoration: none;
+    border-radius: 20px;
+    background: #ddd;
+    color: black;
+  }
+  .personal-link:visited {
+    text-decoration: none;
+    color:  #fff;
+  }
+  .home-content {
+    margin-left: 50px;
+    width: 80%;
+    margin-right: 50px;
+  }
+  .right-list {
+    top: 100px;
+    margin-right: 50px;
+    float: left;
   }
