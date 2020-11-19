@@ -56,7 +56,6 @@ body {
     color: black;
   }
   .personal-link {
-    text-decoration: none;
     border-radius: 20px;
   }
   .personal-link:hover {
@@ -74,8 +73,16 @@ body {
     width: 80%;
     margin-right: 50px;
   }
+  .home-content ol {
+    margin-left: 100px;
+    font-size: 30px;
+  }
   .right-list {
     top: 100px;
     margin-right: 50px;
     float: left;
+  }
+  .me {
+    width: 500px;
+    height: 500px;
   }
