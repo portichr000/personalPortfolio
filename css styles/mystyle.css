@@ -1,6 +1,7 @@
 html {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #fff;
+    background-color: rgb(102, 102, 102);
 }
 body {
   padding-top: 150px;
@@ -41,7 +42,7 @@ body {
     list-style-type: none;
   }
 
-  li a {
+  .top-nav-a {
     font-size: 40px;
     padding: 15px;
     border: none;
@@ -53,12 +54,13 @@ body {
     margin-left: 50px;
     opacity: 0.7;
   }
-  a:hover {
+  .top-nav-a:hover {
     background: #ddd;
     color: black;
   }
   .personal-link {
     border-radius: 20px;
+    color: #fff;
   }
   .personal-link:hover {
     text-decoration: none;
@@ -75,22 +77,19 @@ body {
     width: 80%;
     margin-right: 50px;
   }
-  .home-content ol {
-    margin-left: 100px;
-    font-size: 30px;
-  }
   .left-list {
     top: 150px;
 
     margin-right: 50px;
     float: left;
   }
-  .right-list {
-    top: 100px;
-    margin-right: 50px;
-    float: right;
-  }
   .me {
     width: 500px;
     height: 500px;
   }
+  .class-schedule {
+    float: left;
+  }
+.schedule-table, th, td{
+  border: 2px solid #fff;
+}
