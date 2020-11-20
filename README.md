@@ -6,3 +6,4 @@ Put a nav menu somewhere on the page 5pt
 sticky nav 5pt
 striped table rows for weekly schedule 5 pt
 favicon browser tab icon 10pt
+added a sticky footer 5pt
