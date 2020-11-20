@@ -2,10 +2,16 @@ html {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #fff;
     background-color: rgb(102, 102, 102);
+    padding-bottom: 100px;
 }
 body {
   padding-top: 150px;
 }
+
+body, html {
+  height: 100%;
+}
+
 .container {
   z-index: 1;
 }
@@ -92,4 +98,22 @@ body {
   }
 .schedule-table, th, td{
   border: 2px solid #fff;
+}
+
+tr:nth-child(even) {background: rgb(104, 104, 161)}
+tr:nth-child(odd) {background: rgb(94, 94, 94)}
+
+.hero-image {
+
+  background-image: url(../imagesandVideos/narutoandsasuke.jpg);
+
+ 
+  margin-top: 700px;
+  height: 100%;
+  width: 100%;
+  float: inline-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
