@@ -117,3 +117,13 @@ tr:nth-child(odd) {background: rgb(94, 94, 94)}
   background-size: cover;
   position: relative;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
